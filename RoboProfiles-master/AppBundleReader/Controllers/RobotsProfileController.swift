@@ -16,6 +16,7 @@ class RobotsProfileController: UIViewController {
             guard let unwrappedImageUrl = robot?.image else { return }
             if let robotImageData = try? Data(contentsOf: unwrappedImageUrl) {
                 robotImageView.image = UIImage(data: robotImageData)
+                //setupCircularImageStyle()
             }
             
             nameTextLabel.text = robot?.name
@@ -23,8 +24,6 @@ class RobotsProfileController: UIViewController {
             personalityTextLabel.text = robot?.personality
             
             phraseTextLabel.text = robot?.phrase
-            
-            
             
         }
     }
@@ -45,6 +44,13 @@ class RobotsProfileController: UIViewController {
         setupUI()
     }
     
+//    private func setupCircularImageStyle() {
+//        robotImageView.layer.cornerRadius = robotImageView.frame.width / 2
+//        robotImageView.clipsToBounds = true
+//        robotImageView.layer.borderColor = UIColor.darkGrayBlue.cgColor
+//        robotImageView.layer.borderWidth = 2
+//    }
+    
     //MARK: - Custom UI Elements
     let lightBlueBackgroundView: UIView = {
         let backgroundView = UIView()
@@ -57,10 +63,11 @@ class RobotsProfileController: UIViewController {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFill
-        imageView.layer.cornerRadius = 20
+        imageView.backgroundColor = UIColor.tealColor
+        imageView.layer.cornerRadius = 50
         imageView.clipsToBounds = true
         imageView.layer.borderColor = UIColor.darkGrayBlue.cgColor
-        imageView.layer.borderWidth = 1
+        imageView.layer.borderWidth = 2
         return imageView
     }()
     
