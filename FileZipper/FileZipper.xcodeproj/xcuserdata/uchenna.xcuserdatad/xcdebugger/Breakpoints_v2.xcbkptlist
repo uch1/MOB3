@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FileZipper/Controllers/AnimalImagesController.swift"
+            timestampString = "538134421.117433"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FileZipper/Controllers/AnimalImagesController.swift"
+            timestampString = "538134421.118014"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AnimalImagesController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FileZipper/Controllers/CollageController.swift"
+            timestampString = "538136635.923705"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FileZipper/Controllers/CollageController.swift"
+            timestampString = "538136635.924288"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "CollageController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FileZipper.CollageController.imageCollection.getter : Swift.Array&lt;FileZipper.ImageCollection&gt;"
+                  moduleName = "FileZipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
+                  timestampString = "538136635.967635"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FileZipper.CollageController.imageCollection.setter : Swift.Array&lt;FileZipper.ImageCollection&gt;"
+                  moduleName = "FileZipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
+                  timestampString = "538136635.9710881"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FileZipper.CollageController.init(collectionViewLayout: __ObjC.UICollectionViewLayout) -&gt; FileZipper.CollageController"
+                  moduleName = "FileZipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
+                  timestampString = "538136635.975266"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FileZipper.CollageController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FileZipper.CollageController"
+                  moduleName = "FileZipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
+                  timestampString = "538136635.981891"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FileZipper.CollageController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;FileZipper.CollageController&gt;"
+                  moduleName = "FileZipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
+                  timestampString = "538136635.988956"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

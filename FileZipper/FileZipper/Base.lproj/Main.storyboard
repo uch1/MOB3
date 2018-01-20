@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FileZipper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDf-Ro-Np9">
+                                <rect key="frame" x="8" y="36" width="326" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Red-5n-F5r">
+                                <rect key="frame" x="342" y="36" width="25" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oDf-Ro-Np9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="BZ9-Hl-Ehy"/>
+                            <constraint firstItem="oDf-Ro-Np9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="LeU-bS-CxW"/>
+                            <constraint firstItem="Red-5n-F5r" firstAttribute="leading" secondItem="oDf-Ro-Np9" secondAttribute="trailing" constant="8" id="Ljw-uZ-ObJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Red-5n-F5r" secondAttribute="trailing" constant="8" id="ODY-Il-v8y"/>
+                            <constraint firstItem="Red-5n-F5r" firstAttribute="centerY" secondItem="oDf-Ro-Np9" secondAttribute="centerY" id="jzG-jd-m4O"/>
+                            <constraint firstItem="Red-5n-F5r" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="onm-Af-tiI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FY1-A4-8HY">
+            <objects>
+                <viewController id="hNH-Dc-WNo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xuH-LZ-CHT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMr-gq-CeA">
+                                <rect key="frame" x="8" y="36" width="125" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VmJ-Js-TSn">
+                                <rect key="frame" x="156" y="36" width="211" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CMr-gq-CeA" firstAttribute="leading" secondItem="jFh-DN-skO" secondAttribute="leading" constant="8" id="aS6-FU-p9E"/>
+                            <constraint firstItem="CMr-gq-CeA" firstAttribute="top" secondItem="jFh-DN-skO" secondAttribute="top" constant="16" id="dNH-UI-itP"/>
+                            <constraint firstItem="VmJ-Js-TSn" firstAttribute="top" secondItem="jFh-DN-skO" secondAttribute="top" constant="16" id="xlc-eh-9F2"/>
+                            <constraint firstItem="jFh-DN-skO" firstAttribute="trailing" secondItem="VmJ-Js-TSn" secondAttribute="trailing" constant="8" id="zxu-eP-x1U"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jFh-DN-skO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L53-nr-cmt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1176.8" y="-428.63568215892059"/>
+        </scene>
+    </scenes>
+</document>
