@@ -22,3 +22,10 @@ Data(contentsOf: url, options: .alwaysMapped)
 - [x] If you are using swift's codable type, use the JSONDecoder to decode the data to a Swift model(Codable type).
 
 - [x] Display the list of robo profiles(Name, Phrase, Personality, Image is optional) in a list (UITableView or UICollectionView).
+
+## Screenshots
+
+<p float="left">
+  <img src="robotprofile1.png" width=300 />
+  <img src="robotprofile2.png" width=300/> 
+</p>
