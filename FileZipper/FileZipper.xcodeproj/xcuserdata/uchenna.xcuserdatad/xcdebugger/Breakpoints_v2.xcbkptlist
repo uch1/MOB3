@@ -41,12 +41,76 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FileZipper/Controllers/CollageController.swift"
-            timestampString = "538136635.923705"
+            filePath = "FileZipper/Services/Networking.swift"
+            timestampString = "538214182.348214"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "fetchDownloadedFiles(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FileZipper/Services/Networking.swift"
+            timestampString = "538214182.348585"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "fetchDownloadedFiles(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FileZipper/Services/Networking.swift"
+            timestampString = "538214182.34875"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "fetchDownloadedFiles(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FileZipper/Services/Networking.swift"
+            timestampString = "538214182.348874"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "fetchDownloadedFiles(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FileZipper/Controllers/CollageController.swift"
+            timestampString = "538214182.348992"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,7 +122,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FileZipper/Controllers/CollageController.swift"
-            timestampString = "538136635.924288"
+            timestampString = "538214182.349731"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchingPreviewImages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FileZipper/Controllers/CollageController.swift"
+            timestampString = "538214182.350136"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
@@ -74,7 +154,7 @@
                   moduleName = "FileZipper"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
-                  timestampString = "538136635.967635"
+                  timestampString = "538214182.506862"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -89,7 +169,7 @@
                   moduleName = "FileZipper"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
-                  timestampString = "538136635.9710881"
+                  timestampString = "538214182.510451"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -104,7 +184,7 @@
                   moduleName = "FileZipper"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
-                  timestampString = "538136635.975266"
+                  timestampString = "538214182.514056"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -119,7 +199,7 @@
                   moduleName = "FileZipper"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
-                  timestampString = "538136635.981891"
+                  timestampString = "538214182.518019"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -134,7 +214,7 @@
                   moduleName = "FileZipper"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
-                  timestampString = "538136635.988956"
+                  timestampString = "538214182.5220799"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"

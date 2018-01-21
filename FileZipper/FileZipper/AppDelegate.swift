@@ -24,7 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         layout.scrollDirection = .vertical
         let collageController = CollageController(collectionViewLayout: layout)
         
-        window?.rootViewController = collageController
+        let navController = UINavigationController(rootViewController: collageController)
+        window?.rootViewController = navController
         
         return true
     }

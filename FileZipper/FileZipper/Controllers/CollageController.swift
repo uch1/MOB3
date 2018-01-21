@@ -15,14 +15,27 @@ class CollageController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Networking.shared.fetchImages { (data) in
+        collectionView?.backgroundColor = .red
+        fetchingPreviewImages()
+
+        
+    }
+
+    func fetchingPreviewImages() {
+        
+        Networking.shared.fetch { (data) in
             
             if let decodedImageCollection = try? JSONDecoder().decode([ImageCollection].self, from: data) {
                 self.imageCollection = decodedImageCollection
             }
         }
     }
-
+    
+    func fetchingDownloadedImages() {
+        
+        Networking.shared.fetchDownloadedFiles(url: <#T##URL#>, completion: <#T##(URL) -> (Void)#>)
+        
+    }
 
 }
 

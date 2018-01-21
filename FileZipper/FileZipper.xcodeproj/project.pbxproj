@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		804E7E3A201359B400FA673A /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802526FE20132E63003CD5AA /* Zip.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		804E7E3B201359B400FA673A /* Zip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 802526FE20132E63003CD5AA /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		804E7E3E2013607C00FA673A /* filemanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E7E3D2013607C00FA673A /* filemanager.swift */; };
 		8051036C20100CF100F14617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8051036B20100CF100F14617 /* AppDelegate.swift */; };
 		8051036E20100CF100F14617 /* CollageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8051036D20100CF100F14617 /* CollageController.swift */; };
 		8051037120100CF100F14617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8051036F20100CF100F14617 /* Main.storyboard */; };
@@ -16,8 +19,23 @@
 		807BF7C6201348BF0071B251 /* ImageCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BF7C5201348BF0071B251 /* ImageCollection.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		804E7E3C201359B400FA673A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				804E7E3B201359B400FA673A /* Zip.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		802526FE20132E63003CD5AA /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/iOS/Zip.framework; sourceTree = "<group>"; };
+		804E7E3D2013607C00FA673A /* filemanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filemanager.swift; sourceTree = "<group>"; };
 		8051036820100CF100F14617 /* FileZipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileZipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8051036B20100CF100F14617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8051036D20100CF100F14617 /* CollageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageController.swift; sourceTree = "<group>"; };
@@ -34,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804E7E3A201359B400FA673A /* Zip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +89,7 @@
 				8051037220100CF100F14617 /* Assets.xcassets */,
 				8051037420100CF100F14617 /* LaunchScreen.storyboard */,
 				8051037720100CF100F14617 /* Info.plist */,
+				804E7E3D2013607C00FA673A /* filemanager.swift */,
 			);
 			path = FileZipper;
 			sourceTree = "<group>";
@@ -122,6 +142,7 @@
 				8051036420100CF100F14617 /* Sources */,
 				8051036520100CF100F14617 /* Frameworks */,
 				8051036620100CF100F14617 /* Resources */,
+				804E7E3C201359B400FA673A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +209,7 @@
 				8051036C20100CF100F14617 /* AppDelegate.swift in Sources */,
 				805103852010939600F14617 /* Networking.swift in Sources */,
 				807BF7C6201348BF0071B251 /* ImageCollection.swift in Sources */,
+				804E7E3E2013607C00FA673A /* filemanager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
