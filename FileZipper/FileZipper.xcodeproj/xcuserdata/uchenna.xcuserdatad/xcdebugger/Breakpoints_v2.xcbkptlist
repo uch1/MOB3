@@ -41,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FileZipper/Services/Networking.swift"
-            timestampString = "538214182.348214"
+            filePath = "FileZipper/Extensions/PhotoCollectionController/PhotoCollectionController+UICollectionView.swift"
+            timestampString = "538623476.81127"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "fetchDownloadedFiles(url:completion:)"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,61 +57,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FileZipper/Services/Networking.swift"
-            timestampString = "538214182.348585"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "fetchDownloadedFiles(url:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FileZipper/Services/Networking.swift"
-            timestampString = "538214182.34875"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "fetchDownloadedFiles(url:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FileZipper/Services/Networking.swift"
-            timestampString = "538214182.348874"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "fetchDownloadedFiles(url:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FileZipper/Controllers/CollageController.swift"
-            timestampString = "538214182.348992"
+            filePath = "FileZipper/Extensions/PhotoCollectionController/PhotoCollectionController+UICollectionView.swift"
+            timestampString = "538623476.811404"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
             endingLineNumber = "19"
-            landmarkName = "viewDidLoad()"
+            landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -121,107 +73,107 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FileZipper/Controllers/CollageController.swift"
-            timestampString = "538214182.349731"
+            filePath = "FileZipper/Controllers/PhotoCollectionController.swift"
+            timestampString = "538623476.811528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "fetchingPreviewImages()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FileZipper/Controllers/CollageController.swift"
-            timestampString = "538214182.350136"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "CollageController"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "PhotoCollectionController"
             landmarkType = "3">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "FileZipper.CollageController.imageCollection.getter : Swift.Array&lt;FileZipper.ImageCollection&gt;"
+                  symbolName = "FileZipper.PhotoCollectionController.photos.getter : Swift.Array&lt;Foundation.URL&gt;"
                   moduleName = "FileZipper"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
-                  timestampString = "538214182.506862"
+                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/PhotoCollectionController.swift"
+                  timestampString = "538623476.894908"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
                   offsetFromSymbolStart = "109">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "FileZipper.CollageController.imageCollection.setter : Swift.Array&lt;FileZipper.ImageCollection&gt;"
+                  symbolName = "FileZipper.PhotoCollectionController.photos.setter : Swift.Array&lt;Foundation.URL&gt;"
                   moduleName = "FileZipper"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
-                  timestampString = "538214182.510451"
+                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/PhotoCollectionController.swift"
+                  timestampString = "538623476.8987401"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
                   offsetFromSymbolStart = "112">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "FileZipper.CollageController.init(collectionViewLayout: __ObjC.UICollectionViewLayout) -&gt; FileZipper.CollageController"
+                  symbolName = "FileZipper.PhotoCollectionController.init(collectionViewLayout: __ObjC.UICollectionViewLayout) -&gt; FileZipper.PhotoCollectionController"
                   moduleName = "FileZipper"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
-                  timestampString = "538214182.514056"
+                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/PhotoCollectionController.swift"
+                  timestampString = "538623476.902522"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "18">
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "657">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "FileZipper.CollageController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FileZipper.CollageController"
+                  symbolName = "FileZipper.PhotoCollectionController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FileZipper.PhotoCollectionController"
                   moduleName = "FileZipper"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
-                  timestampString = "538214182.518019"
+                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/PhotoCollectionController.swift"
+                  timestampString = "538623476.906689"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "51">
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "707">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "FileZipper.CollageController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;FileZipper.CollageController&gt;"
+                  symbolName = "FileZipper.PhotoCollectionController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;FileZipper.PhotoCollectionController&gt;"
                   moduleName = "FileZipper"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/CollageController.swift"
-                  timestampString = "538214182.5220799"
+                  urlString = "file:///Users/uchenna/Documents/mob3/FileZipper/FileZipper/Controllers/PhotoCollectionController.swift"
+                  timestampString = "538623476.910841"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "28">
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "631">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FileZipper/Controllers/PhotoCollectionController.swift"
+            timestampString = "538623476.812153"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

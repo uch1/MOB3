@@ -11,7 +11,13 @@ import Foundation
 struct ImageCollection {
     var collectionName: String?
     var zippedImagesURL: URL?
-    //var unzippedImagesURL: URL?
+    var unzippedImagesURL: URL?
+    //var previewImage: URL?
+    
+//    init(collectionName: String?, zippedImagesURL: String?) {
+//        self.collectionName = collectionName
+//        self.zippedImagesURL = zippedImagesURL
+//    }
 }
 
 extension ImageCollection: Decodable {
@@ -22,12 +28,13 @@ extension ImageCollection: Decodable {
     }
     
     init(from decoder: Decoder) throws {
-        let imageCollectioncontainer = try decoder.container(keyedBy: ImageCollectionKeys.self)
+        let imageCollectionContainer = try decoder.container(keyedBy: ImageCollectionKeys.self)
         
-        let collectionName = try imageCollectioncontainer.decode(String.self, forKey: .collectionName)
-        let zippedImagesURL = try imageCollectioncontainer.decode(URL.self, forKey: .zippedImagesURL)
+        let collectionName = try imageCollectionContainer.decode(String.self, forKey: .collectionName)
+        let zippedImagesURL = try imageCollectionContainer.decode(URL.self, forKey: .zippedImagesURL)
         
-        self.init(collectionName: collectionName, zippedImagesURL: zippedImagesURL)
+        //self.init(collectionName: collectionName, zippedImagesURL: zippedImagesURL)
+        self.init(collectionName: collectionName, zippedImagesURL: zippedImagesURL, unzippedImagesURL: nil)
     }
     
 }
