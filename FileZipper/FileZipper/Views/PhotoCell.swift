@@ -45,7 +45,7 @@ class PhotoCell: UICollectionViewCell {
     let photoImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.backgroundColor = .black
+        imageView.backgroundColor = .gray
         return imageView
     }()
     
@@ -63,12 +63,18 @@ class PhotoCell: UICollectionViewCell {
     func setupPhotoCell() {
         
         addSubview(profileImageView)
-        profileImageView.leftAnchor.constraint(equalTo: leftAnchor, constant: 8).isActive = true
-        profileImageView.topAnchor.constraint(equalTo: topAnchor, constant: 8).isActive = true
+        profileImageView.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+        profileImageView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
     
         addSubview(profileNameLabel)
         profileNameLabel.leftAnchor.constraint(equalTo: profileImageView.rightAnchor).isActive = true
         profileNameLabel.topAnchor.constraint(equalTo: profileImageView.topAnchor).isActive = true
+        profileNameLabel.widthAnchor.constraint(equalToConstant: 40).isActive = true
+        addSubview(photoImageView)
+        photoImageView.backgroundColor = .orange
+        photoImageView.leftAnchor.constraint(equalTo: leftAnchor, constant: 16).isActive = true
+        photoImageView.topAnchor.constraint(equalTo: bottomAnchor, constant: 16).isActive = true
+        photoImageView.rightAnchor.constraint(equalTo: rightAnchor, constant: -16).isActive = true
         
     }
     

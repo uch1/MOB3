@@ -24,6 +24,8 @@ class PhotoCollectionController: UICollectionViewController {
         
         setupCollectionViewLayout()
         
+        unzippedImageUrl = folderImages?.unzippedImagesURL
+        // Note: Data has been retrieved and stored in jpegImageUrls as well as photo array 
         guard let jpegImageUrls = getImageUrls(url: unzippedImageUrl) else { return }
         photos = jpegImageUrls
         
