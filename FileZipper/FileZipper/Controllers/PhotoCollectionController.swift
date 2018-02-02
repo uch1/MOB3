@@ -20,6 +20,9 @@ class PhotoCollectionController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        edgesForExtendedLayout = []
+        extendedLayoutIncludesOpaqueBars = false
+        
         navigationItem.title = "Photos"
         
         setupCollectionViewLayout()

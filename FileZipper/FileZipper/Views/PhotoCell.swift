@@ -24,6 +24,7 @@ class PhotoCell: UICollectionViewCell {
         let pv = UIView()
         pv.translatesAutoresizingMaskIntoConstraints = false
         pv.backgroundColor = .yellow
+        pv.clipsToBounds = true
         return pv
     }()
     
@@ -31,6 +32,7 @@ class PhotoCell: UICollectionViewCell {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.backgroundColor = .red
+        imageView.clipsToBounds = true
         return imageView
     }()
     
@@ -46,6 +48,7 @@ class PhotoCell: UICollectionViewCell {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.backgroundColor = .gray
+        imageView.clipsToBounds = true
         return imageView
     }()
     
@@ -71,10 +74,11 @@ class PhotoCell: UICollectionViewCell {
         profileNameLabel.topAnchor.constraint(equalTo: profileImageView.topAnchor).isActive = true
         profileNameLabel.widthAnchor.constraint(equalToConstant: 40).isActive = true
         addSubview(photoImageView)
+        
         photoImageView.backgroundColor = .orange
         photoImageView.leftAnchor.constraint(equalTo: leftAnchor, constant: 16).isActive = true
-        photoImageView.topAnchor.constraint(equalTo: bottomAnchor, constant: 16).isActive = true
-        photoImageView.rightAnchor.constraint(equalTo: rightAnchor, constant: -16).isActive = true
+        photoImageView.topAnchor.constraint(equalTo: profileNameLabel.bottomAnchor, constant: 16).isActive = true
+        //photoImageView.rightAnchor.constraint(equalTo: rightAnchor, constant: -16).isActive = true
         
     }
     
