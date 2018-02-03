@@ -21,6 +21,7 @@
 		8051037620100CF100F14617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8051037420100CF100F14617 /* LaunchScreen.storyboard */; };
 		805103852010939600F14617 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805103842010939600F14617 /* Networking.swift */; };
 		807BF7C6201348BF0071B251 /* ImageCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BF7C5201348BF0071B251 /* ImageCollection.swift */; };
+		80C8E9D72025A456008FDF54 /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C8E9D62025A456008FDF54 /* UIColor+Theme.swift */; };
 		80E34B04201565E800FF0CE6 /* CollageController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E34B03201565E800FF0CE6 /* CollageController+UICollectionView.swift */; };
 		80E34B06201567C400FF0CE6 /* CollageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E34B05201567C400FF0CE6 /* CollageCell.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		8051037720100CF100F14617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		805103842010939600F14617 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		807BF7C5201348BF0071B251 /* ImageCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageCollection.swift; path = ../Views/ImageCollection.swift; sourceTree = "<group>"; };
+		80C8E9D62025A456008FDF54 /* UIColor+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
 		80E34B03201565E800FF0CE6 /* CollageController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollageController+UICollectionView.swift"; sourceTree = "<group>"; };
 		80E34B05201567C400FF0CE6 /* CollageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +121,7 @@
 			children = (
 				80E34B02201565C000FF0CE6 /* CollageController */,
 				80363ED32018EDCC002923B6 /* PhotoCollectionController */,
+				80C8E9D62025A456008FDF54 /* UIColor+Theme.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				80E34B04201565E800FF0CE6 /* CollageController+UICollectionView.swift in Sources */,
 				80E34B06201567C400FF0CE6 /* CollageCell.swift in Sources */,
 				80363ED52018EE15002923B6 /* PhotoCollectionController+UICollectionView.swift in Sources */,
+				80C8E9D72025A456008FDF54 /* UIColor+Theme.swift in Sources */,
 				80363ED220187A47002923B6 /* PhotoCell.swift in Sources */,
 				804E7E3E2013607C00FA673A /* filemanager.swift in Sources */,
 			);

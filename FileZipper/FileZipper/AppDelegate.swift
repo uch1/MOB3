@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Anything that accesses NavigationBar will contain these default parameters
         UINavigationBar.appearance().tintColor = .white
         // This will set the nav bar color to a light red color
-        UINavigationBar.appearance().barTintColor = .white
+        UINavigationBar.appearance().barTintColor = UIColor.tealColor
         // This will disable the navbar's translucency
         UINavigationBar.appearance().isTranslucent = false
         // When the tablview is scrolled, this will resize the title text
