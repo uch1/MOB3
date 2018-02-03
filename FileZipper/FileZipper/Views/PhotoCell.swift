@@ -10,28 +10,14 @@ import UIKit
 
 class PhotoCell: UICollectionViewCell {
     
-    // MARK: - Properties
-//    var photo: ImageCollection? {
-//        didSet {
-//            profileNameLabel.text = photo?.collectionName
-//
-//
-//
-//        }
-//    }
-    
-    let profileView: UIView = {
-        let pv = UIView()
-        pv.translatesAutoresizingMaskIntoConstraints = false
-        pv.backgroundColor = .yellow
-        pv.clipsToBounds = true
-        return pv
-    }()
-    
     let profileImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.backgroundColor = .red
+        imageView.contentMode = .scaleAspectFit
+        //imageView.backgroundColor = .black
+        imageView.layer.cornerRadius = 25
+        imageView.layer.borderColor = UIColor.black.cgColor
+//        imageView.layer.borderWidth = 1
         imageView.clipsToBounds = true
         return imageView
     }()
@@ -39,18 +25,58 @@ class PhotoCell: UICollectionViewCell {
     let profileNameLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "example"
-        label.backgroundColor = .black
+        label.text = "EXAMPLEEEEEE"
+        //label.backgroundColor = .green
+        label.font = UIFont.boldSystemFont(ofSize: 16)
         return label
     }()
     
     let photoImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.backgroundColor = .gray
+        imageView.backgroundColor = .red
         imageView.clipsToBounds = true
         return imageView
     }()
+    
+    let heartButton: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        //button.imageView?.image = #imageLiteral(resourceName: "if_Heart_2202276")
+        button.setImage(#imageLiteral(resourceName: "if_Heart_2202276"), for: .normal)
+        button.showsTouchWhenHighlighted = true
+        //button.backgroundColor = .white
+        return button
+    }()
+    
+    let chatButton: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setImage(#imageLiteral(resourceName: "if_Chat_bubble_2202260"), for: .normal)
+        button.showsTouchWhenHighlighted = true
+//        button.backgroundColor = .orange
+        return button
+    }()
+    
+    let paperPlaneButton: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setImage(#imageLiteral(resourceName: "if_paper-plane-1_430109"), for: .normal)
+        button.showsTouchWhenHighlighted = true
+       // button.backgroundColor = .yellow
+        return button
+    }()
+    
+    let bookmarkButton: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setImage(#imageLiteral(resourceName: "if_Bookmark_2202257"), for: .normal)
+        button.showsTouchWhenHighlighted = true
+        //button.backgroundColor = .black
+        return button
+    }()
+    
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -66,20 +92,51 @@ class PhotoCell: UICollectionViewCell {
     func setupPhotoCell() {
         
         addSubview(profileImageView)
-        profileImageView.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
-        profileImageView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
-    
+        profileImageView.topAnchor.constraint(equalTo: topAnchor, constant: 16).isActive = true
+        profileImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16).isActive = true
+        profileImageView.widthAnchor.constraint(equalToConstant: 40).isActive = true
+        profileImageView.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        
+        
         addSubview(profileNameLabel)
-        profileNameLabel.leftAnchor.constraint(equalTo: profileImageView.rightAnchor).isActive = true
         profileNameLabel.topAnchor.constraint(equalTo: profileImageView.topAnchor).isActive = true
-        profileNameLabel.widthAnchor.constraint(equalToConstant: 40).isActive = true
+        profileNameLabel.leadingAnchor.constraint(equalTo: profileImageView.trailingAnchor, constant: 16).isActive = true
+        profileNameLabel.widthAnchor.constraint(equalToConstant: 150).isActive = true
+        profileNameLabel.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        
+        
         addSubview(photoImageView)
+        photoImageView.topAnchor.constraint(equalTo: profileImageView.bottomAnchor, constant: 16).isActive = true
+        photoImageView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
+        photoImageView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
+        photoImageView.heightAnchor.constraint(equalToConstant: 300).isActive = true
         
-        photoImageView.backgroundColor = .orange
-        photoImageView.leftAnchor.constraint(equalTo: leftAnchor, constant: 16).isActive = true
-        photoImageView.topAnchor.constraint(equalTo: profileNameLabel.bottomAnchor, constant: 16).isActive = true
-        //photoImageView.rightAnchor.constraint(equalTo: rightAnchor, constant: -16).isActive = true
         
+        addSubview(heartButton)
+        heartButton.topAnchor.constraint(equalTo: photoImageView.bottomAnchor, constant: 16).isActive = true
+        heartButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16).isActive = true
+        heartButton.widthAnchor.constraint(equalToConstant: 25).isActive = true
+        heartButton.heightAnchor.constraint(equalToConstant: 25).isActive = true
+        
+        
+        addSubview(chatButton)
+        chatButton.topAnchor.constraint(equalTo: heartButton.topAnchor).isActive = true
+        chatButton.leadingAnchor.constraint(equalTo: heartButton.trailingAnchor, constant: 16).isActive = true
+        chatButton.widthAnchor.constraint(equalToConstant: 25).isActive = true
+        chatButton.heightAnchor.constraint(equalToConstant: 25).isActive = true
+        
+        
+        addSubview(paperPlaneButton)
+        paperPlaneButton.topAnchor.constraint(equalTo: heartButton.topAnchor).isActive = true
+        paperPlaneButton.leadingAnchor.constraint(equalTo: chatButton.trailingAnchor, constant: 16).isActive = true
+        paperPlaneButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
+        paperPlaneButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        
+        addSubview(bookmarkButton)
+        bookmarkButton.topAnchor.constraint(equalTo: heartButton.topAnchor).isActive = true
+        bookmarkButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16).isActive = true
+        bookmarkButton.widthAnchor.constraint(equalToConstant: 25).isActive = true
+        bookmarkButton.heightAnchor.constraint(equalToConstant: 25).isActive = true
     }
     
 }

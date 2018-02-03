@@ -38,7 +38,7 @@ class PhotoCollectionController: UICollectionViewController {
     
     func setupCollectionViewLayout() {
         collectionView?.register(PhotoCell.self, forCellWithReuseIdentifier: cellId)
-        collectionView?.backgroundColor = .yellow
+        collectionView?.backgroundColor = .white
         
         let layout = collectionView?.collectionViewLayout as? UICollectionViewFlowLayout
         layout?.scrollDirection = .vertical
