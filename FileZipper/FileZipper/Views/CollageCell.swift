@@ -26,19 +26,22 @@ class CollageCell: UICollectionViewCell {
     
     private let collageImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.contentMode = .scaleAspectFill
-        //imageView.backgroundColor = .green
-        imageView.clipsToBounds = true
         imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.contentMode = .scaleToFill
+        imageView.layer.shadowColor = UIColor.black.cgColor
+        imageView.layer.shadowOpacity = 1
+        imageView.layer.shadowOffset = CGSize.zero
+        imageView.layer.shadowRadius = 10
+        imageView.layer .shadowPath = UIBezierPath(rect: imageView.bounds).cgPath
+        imageView.clipsToBounds = true
         return imageView
     }()
     
     private let categoryLabel: UILabel = {
         let label = UILabel()
-//        label.text = "Swimming"
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = .black
-        label.font = UIFont.boldSystemFont(ofSize: 35)
+        label.textColor = UIColor.black
+        label.font = UIFont.boldSystemFont(ofSize: 50)
         return label
     }()
     
@@ -46,7 +49,6 @@ class CollageCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        backgroundColor = .orange
         setupCellLayout()
     }
     
@@ -58,18 +60,17 @@ class CollageCell: UICollectionViewCell {
     private func setupCellLayout() {
         
         addSubview(collageImageView)
-        collageImageView.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
-        collageImageView.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
+        collageImageView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
+        collageImageView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
         collageImageView.topAnchor.constraint(equalTo: topAnchor).isActive = true
         collageImageView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true 
         //collageImageView.widthAnchor.constraint(equalToConstant: 500).isActive = true
         
         
         addSubview(categoryLabel)
-        
-        categoryLabel.leftAnchor.constraint(equalTo: leftAnchor, constant: 8).isActive = true
-        categoryLabel.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
-        categoryLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -8).isActive = true
+        categoryLabel.leftAnchor.constraint(equalTo: collageImageView.leftAnchor, constant: 25).isActive = true
+        categoryLabel.rightAnchor.constraint(equalTo: collageImageView.rightAnchor, constant: -20).isActive = true
+        categoryLabel.bottomAnchor.constraint(equalTo: collageImageView.bottomAnchor, constant: -20).isActive = true
         
         
     }

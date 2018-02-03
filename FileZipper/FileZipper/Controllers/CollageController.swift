@@ -18,9 +18,9 @@ class CollageController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.title = "Categories"
+        navigationItem.title = "Photo Album"
         
-        collectionView?.backgroundColor = .red
+        collectionView?.backgroundColor = .white
         collectionView?.register(CollageCell.self, forCellWithReuseIdentifier: cellId)
         fetchingPreviewImages()
         
