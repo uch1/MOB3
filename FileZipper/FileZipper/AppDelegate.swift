@@ -8,6 +8,18 @@
 
 import UIKit
 
+class CustomNavigationController: UINavigationController {
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+}
+
+extension UINavigationController {
+    open override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -28,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // This will make nav bar's font bold
         UINavigationBar.appearance().prefersLargeTitles = true
         // Set the color of the font to white
-        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.black]
+        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
         
         
         window = UIWindow()
@@ -38,9 +50,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         layout.scrollDirection = .vertical
 
         let collageController = CollageController(collectionViewLayout: layout)
-    
-    
-        let navController = UINavigationController(rootViewController: collageController)
+        let navController = CustomNavigationController(rootViewController: collageController)
+        
         window?.rootViewController = navController
         
         return true

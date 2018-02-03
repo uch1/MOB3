@@ -40,7 +40,9 @@ class CollageCell: UICollectionViewCell {
     private let categoryLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = UIColor.black
+        label.textColor = UIColor.white
+        label.shadowColor = .black
+        label.shadowOffset = CGSize.zero
         label.font = UIFont.boldSystemFont(ofSize: 50)
         return label
     }()
