@@ -100,7 +100,7 @@ class RobotsProfileController: UIViewController {
     let personalityTextLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.numberOfLines = 3
+        label.numberOfLines = 0
         //label.text = "Personality blaha nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn "
         return label
     }()
